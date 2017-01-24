@@ -28,7 +28,7 @@ test=[indices test];
 xlswrite('r10_test.xlsx',test);
 
 %generate the random 3000 samples of test data, whereas each sample is a
-%sum of 30 samples.
+%sum of 10 samples.
 
 train=zeros(3000,1024);
 for i=1:1:3000
